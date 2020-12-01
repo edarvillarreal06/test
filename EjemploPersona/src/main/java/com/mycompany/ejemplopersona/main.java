@@ -12,18 +12,7 @@ package com.mycompany.ejemplopersona;
 public class main {
 
     public static void main(String[] args) {
-        //crear un objeto utilizando la definición de la clase Persona
-        //1. instaciar la clase Persona, con el constructor que se desea utilizar
-        Persona p1 = new Persona();
-        p1.caminar();
-        p1.setNombre("Luis Pérez");
-        System.out.println(p1.getNombre());
-        String decir = p1.hablar("Estoy hablando...");
-        System.out.println(decir);
-        p1.setEdad(25);
-        p1.setSalario(500000.38);
-        System.out.println(p1.getEdad());
-        System.out.println(p1.getSalario());
+        
 
         System.out.println("****************************************");
         System.out.println("****************************************");
